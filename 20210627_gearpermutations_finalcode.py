@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-
-This is a temporary script file.
 """
 import numpy as np
 import itertools
@@ -61,9 +59,11 @@ print(len(per1), len(speed))
 per1.insert(0, gearnames[0:len(gearnames)])
 #print(per1)
 
+#iterates over the 2d array of the output and prints it to an excel workbook. 
 for i in range(len(per1)):
     permwb.write(i, len(gearnames), speed[i])
     for n in range(len(per1[i])):
         permwb.write(i,n, per1[i][n])
 
+#saves the workbook        
 wb.save('20210613_gearpermutation2.xls')
