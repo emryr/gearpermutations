@@ -19,7 +19,7 @@ permwb = wb.create_sheet('gearpermutations', 0)
 #initiating all variables
 
 #Gear names - can be changed to whatever you'd like to label the gears
-column = ['compound type','Speed Ratio','Gear 1', 'Gear 2', 'Gear 3', 'Gear 4', 'Gear 5', 'Gear 6', 'Gear 7'] 
+column = ['compound_type','SpeedRatio','Gear1', 'Gear2', 'Gear3', 'Gear4', 'Gear5', 'Gear6', 'Gear7'] 
 
 values = [2, 4, 6, 8, 10, 16, 24] #array of gears w desired teeth numbers
 
